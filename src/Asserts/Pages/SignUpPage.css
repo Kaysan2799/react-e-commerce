@@ -1,0 +1,228 @@
+.signup-full{
+  background-color: #2695c0;
+  /* width: 90%;
+  height: 100%; */
+  /* overflow: hidden; */
+}
+
+.image1{
+  float: right;
+  display: flex;
+  border: 2px solid black;
+  margin-right: 7%;
+  /* margin-bottom: -10%; */
+  height: 740px;
+  box-shadow: 3px 2px 10px black;
+  border-radius: 20px;
+}
+
+
+.signup-container {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 3px 2px 10px black;
+  border-radius: 20px;
+  width: 35%;
+  margin: 2%;
+  margin-left: 7%;
+  margin-top: 100px;
+  padding: 2%;
+  background-color: rgb(223, 223, 223);
+}
+
+.h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+}
+
+.form-group input[type='text'],
+.form-group input[type='email'],
+.form-group input[type='password'] {
+  border: none;
+  border-bottom: 3px solid #666;
+  background-color: #f0f5f9;
+  padding: 10px;
+  margin-top: 5px;
+  width: 300px;
+  font-size: 16px;
+  color: #333;
+  border-radius: 8px;
+}
+
+.form-group input[type='radio'] {
+  margin: 7px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.signup-container button[type='submit'] {
+  background-color: rgb(0, 59, 79);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px 0px;
+}
+
+.signup-container button[type='submit']:hover {
+  background-color: #01a4fb;
+  color: #333;
+  /* transform: translateX(150px); */
+  border-radius: 0px 10px;
+}
+
+@media only screen and (max-width: 1441px) {
+  
+  .image1{
+    margin-right: 4%;
+    height: 740px;
+    border-radius: 20px;
+  }
+  
+  
+  .signup-container {
+    border-radius: 20px;
+    width: 35%;
+    margin: 2%;
+    margin-left: 4%;
+    margin-top: 100px;
+    padding: 2%;
+  }
+  
+  .h1 {
+    font-size: 24px;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+  }
+  
+  .form-group input[type='text'],
+  .form-group input[type='email'],
+  .form-group input[type='password'] {
+    padding: 10px;
+    margin-top: 5px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  
+  .form-group input[type='radio'] {
+    margin: 7px;
+  }
+  
+  .radio-group {
+    margin-top: 5px;
+  }
+  
+  .signup-container button[type='submit'] {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 10px 0px;
+  }
+  
+  .signup-container button[type='submit']:hover {
+    border-radius: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  
+  .image1{
+    margin-right: 2%;
+    height: 440px;
+    border-radius: 20px;
+  }
+  
+  
+  .signup-container {
+    border-radius: 20px;
+    width: 47%;
+    margin: 2%;
+    margin-left: 2%;
+    margin-top: 100px;
+    padding: 2%;
+  }
+  
+  .h1 {
+    font-size: 24px;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+  }
+  
+  .form-group input[type='text'],
+  .form-group input[type='email'],
+  .form-group input[type='password'] {
+    padding: 10px;
+    margin-top: 5px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  
+  .form-group input[type='radio'] {
+    margin: 7px;
+  }
+  
+  .radio-group {
+    margin-top: 5px;
+  }
+  
+  .signup-container button[type='submit'] {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 10px 0px;
+  }
+  
+  .signup-container button[type='submit']:hover {
+    border-radius: 0px 10px;
+  }
+}

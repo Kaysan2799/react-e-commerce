@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+
+.typography-container {
+  position: relative;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+:root {
+  --clr: #1af7ff;
+  background-color: #2695c0;
+}
+
+.text {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+  transition: 1s ease;
+  transition-delay: 0.25s;
+}
+
+.hover-text {
+  position: absolute;
+  inset: 0;
+  width: 0%;
+  color: var(--clr);
+  overflow: hidden;
+  border-right: 6px solid var(--clr);
+  transition: 1s ease-in-out;
+}
+
+.typography-container:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 40px var(--clr));
+}
+
+.typography-container:hover .text {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0);
+}
+
+@media only screen and (max-width: 1441px) {
+  .typography-container {
+    font-size: 2rem;
+    letter-spacing: 2.4px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .typography-container {
+    font-size: 1.4rem;
+    letter-spacing: 1.6px;
+    line-height: 20px;
+  }
+}

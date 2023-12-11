@@ -1,0 +1,92 @@
+/* footer.css */
+
+.footer-container {
+  background-color:#032F40 ;
+  color: white;
+  padding: 50px;
+  display: flex;
+  float: inline-start;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+}
+
+.footer-heading {
+  margin-bottom: 0px;
+}
+
+.footer-image {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.footer-text {
+  margin-bottom: 1px;
+}
+
+.review-form {
+  margin-top: -8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  padding-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%; /* Adjust the width as needed */
+  height: 300px; /* Set a fixed height for the content */
+  overflow-y: auto; /* Add scrollbars if content exceeds the height */
+}
+
+.review-input {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 3px solid white;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.review-submit {
+  background-color: #0a85c7;
+  color: rgb(20, 19, 19);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.review-submit:hover {
+  background-color: #0e364b;
+  
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info,
+  .location-info {
+    width: 30%;
+  }
+
+  .review-form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-container {
+    padding: 30px;
+  }
+}
+
+body{
+  background-color: rgb(251, 251, 251) !important;
+  /* color: azure; */
+}

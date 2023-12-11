@@ -1,0 +1,105 @@
+.h1,
+.h2,
+.h3 {
+  margin-bottom: 20px;
+  /* Additional inline styles applied */
+  color: #032F40;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.form {
+  margin-bottom: 30px;
+  /* Additional inline styles applied */
+  border: 2px solid black;
+  width: 35%;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #032F40;
+  color: white;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  /* Additional inline styles applied */
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.input[type="text"],
+.textarea,
+.input[type="number"],
+.select {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-bottom: 3px solid #fff;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.input[type="file"] {
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #69a3c2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  /* Additional inline styles applied */
+  width: 220px;
+  height: 60px;
+  border-radius: 12px;
+  margin-left: 65%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ul {
+  list-style-type: none;
+  padding-left: 0;
+  /* Additional inline styles applied */
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.li:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1441px) {
+  .form{
+    width: 0%;
+  }
+  .button {
+    background-color: #69a3c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /* Additional inline styles applied */
+    width: 220px;
+    height: 60px;
+    border-radius: 12px;
+    margin-left: 65%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

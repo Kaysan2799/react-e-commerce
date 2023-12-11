@@ -1,0 +1,158 @@
+.hero-section {
+  align-items: center;
+  display: flex;
+  background-color: #032F40;
+  padding: 50px, 20px;
+  padding-top: 50px;
+}
+
+.hero-content {
+  flex: 1;
+  margin-left: 0px;
+}
+
+.hero-content p {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+
+}
+
+.hero-PB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: 2px solid #007bff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-video {
+  width: 700px;
+  height: 450px;
+  margin-right: 0px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.hero-video video {
+  width: 100%;
+  height: auto;
+  margin-left: -100px;
+  margin-bottom: -480px;
+  /* border-radius: 10px; */
+}
+
+@media only screen and (max-width: 1441px){
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  .hero-button:hover {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  .hero-video {
+    width: 650px;
+    height: 450px;
+    border-radius: 100px;
+  }
+  
+  .hero-video video {
+    margin-left: -100px;
+    margin-bottom: -480px;
+  } 
+}
+
+@media only screen and (max-width: 1025px){
+  
+  .hero-content p {
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .hero-button:hover {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .hero-video {
+    width: 450px;
+    height: 450px;
+    border-radius: 60px;
+    margin-top: -160px;
+  }
+  
+  .hero-video video {
+    margin-left: -50px;
+    margin-bottom: -480px;
+  } 
+}
+
+@media screen and (max-width: 600px) {
+  .hero-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    display: flex;
+    background-color: #003153;
+  }
+
+  .hero-content {
+
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .hero-video {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .hero-video video {
+    margin-left: 25px;
+  }
+
+}

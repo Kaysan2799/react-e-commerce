@@ -1,0 +1,207 @@
+.about-container {
+  max-width: 85%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  padding: 40px;
+  margin-left: 7%;
+  background-color: #003a51;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-image {
+  width: 1200px;
+  height: 400px;
+  background-image: url('../Pics/OIP.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10%;
+  margin-right: 40px;
+}
+
+.about-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  /* color: black; */
+}
+
+.about-text {
+  font-family: sans-serif;
+  color: #cecece;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.container {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #e9e9e9;
+  border-radius: 5%;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 2%;
+  margin: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+  display: flex;
+  position: relative;
+  float: inline-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 26%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-image {
+  background-image: url(https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255)
+}
+
+.container h1 {
+  font-family: 'Righteous', sans-serif;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  padding-top: 10px;
+}
+
+.cards p {
+  color: black;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  /* text-transform: uppercase; */
+}
+
+
+@media only screen and (max-width: 1441px) {
+  .about-container {
+    max-width: 85%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    padding: 40px;
+    margin-left: 7%;
+  }
+
+  .about-title {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  .about-image {
+    width: 1200px;
+    height: 400px;
+    margin-right: 40px;
+  }
+
+  .about-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .about-text {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 2%;
+    margin: 2.2%;
+    width: 26%;
+  }
+
+  .wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner-image {
+    height: 300px;
+    border-radius: 4%;
+  }
+
+  .container h1 {
+    font-size: 1.5rem;
+    padding-top: 10px;
+  }
+
+  .cards p {
+    font-size: 0.8rem;
+    line-height: 150%;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .about-container {
+    max-width: 90%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    padding: 20px;
+    margin-left: 7%;
+  }
+
+  .about-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .about-image {
+    /* width: 1200px; */
+    /* height: 400px; */
+    margin-right: 20px;
+  }
+
+  .about-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .about-text {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 2%;
+    margin: 2%;
+    width: 28%;
+  }
+
+  .banner-image {
+    height: 180px;
+    border-radius: 4%;
+  }
+
+  .container h1 {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+
+  .cards p {
+    font-size: 0.65rem;
+    line-height: 150%;
+    letter-spacing: 2px;
+  }
+}
