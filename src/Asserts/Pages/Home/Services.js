@@ -1,5 +1,6 @@
 import React from 'react';
 import './services.css';
+
 // import image from '../../Pics/services.jpg'
 import image2 from '../../Pics/Internal.gif'
 // import image3 from '../../Pics/cpu.jpg';
@@ -10,7 +11,11 @@ import image2 from '../../Pics/Internal.gif'
 import image7 from '../../Pics/lucy-computer.gif';
 import image8 from '../../Pics/skeleton-typing.gif';
 import image9 from '../../Pics/explode.gif';
+// import product from '../product';
+
+// import { Link } from 'react-router-dom';
 const Services = () => {
+
   return (
     <>
       <div className="services-container">
@@ -21,7 +26,9 @@ const Services = () => {
             <img src={image7} alt="Service" className="service-image" />
           </div>
           <div className="service-right">
-            <h2 className="service-title">Advanced Level Electronic Projects</h2>
+            <h2 className="service-title" >
+              Advanced Level Electronic Projects
+            </h2>
             <p className="service-description">
               We specialize in taking on advanced level electronic projects, including those involving AI codes and technologies. Our team of experts can assist students in developing and implementing their ambitious electronic projects, providing guidance and support along the way.
             </p>

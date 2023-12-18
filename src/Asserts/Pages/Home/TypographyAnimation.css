@@ -9,11 +9,6 @@
   cursor: pointer;
 }
 
-:root {
-  --clr: #1af7ff;
-  background-color: #2695c0;
-}
-
 .text {
   color: transparent;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);

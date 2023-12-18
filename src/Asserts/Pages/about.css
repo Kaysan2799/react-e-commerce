@@ -1,3 +1,8 @@
+.about-full{
+  background-color: #00d0e6;
+  margin-top: 120px;
+}
+
 .about-container {
   max-width: 85%;
   margin-top: 3%;
@@ -42,6 +47,11 @@
   font-size: 18px;
 }
 
+:root {
+  --clr: #1af7ff;
+  background-color: #00d0e6;
+}
+
 .container {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -66,11 +76,12 @@
   height: 100%;
 }
 
-.banner-image {
-  background-image: url(https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+.banner-image img {
+  /* background-image: url(https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80); */
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 100%;
+    overflow: hidden;
   width: 100%;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.255)
@@ -85,7 +96,7 @@
   padding-top: 10px;
 }
 
-.cards p {
+.cards1 p {
   color: black;
   font-family: sans-serif;
   font-size: 0.8rem;

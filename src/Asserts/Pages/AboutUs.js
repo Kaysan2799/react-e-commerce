@@ -1,9 +1,9 @@
 import React from 'react';
 import './about.css';
-
+// import image1 from ''
 const AboutUs = () => {
   return (
-    <div className='about-full' style={{backgroundColor:'#2695c0', marginTop:'120px' }}>
+    <div className='about-full' >
       <div className="about-container" style={{color:'white', boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.8)', borderRadius:'40px'}}>
         <h1 className="about-title">About Us</h1>
 
@@ -26,19 +26,23 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className='cards' style={{marginLeft: '7%', color:'black', }}>
+      <div className='cards1' style={{ paddingLeft: '7%', color: 'black', backgroundColor: 'black',  }}>
         <div class="container" >
           <div class="wrapper">
-            <div class="banner-image"> </div>
+            <div class="banner-image">
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702658138/atta_ytfonp.jpg' alt='' />
+            </div>
             <h1>Atta-un-Nabi</h1>
-            <p>Lorem ipsum dolor sit amet, <br />
-              consectetur adipiscing elit.</p>
+            <p>name123@gmail.com <br />
+              FA21-BSCYS-2130-0000</p>
           </div>
         </div>
 
         <div class="container" >
           <div class="wrapper">
-            <div class="banner-image"> </div>
+            <div class="banner-image">
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702655442/supra_q8jteq.jpg' alt='' />
+            </div>
             <h1>Syed Muneeb</h1>
             <p>name123@gmail.com <br />
               FA21-BSCYS-2130-0000</p>
@@ -47,7 +51,9 @@ const AboutUs = () => {
 
         <div class="container" >
           <div class="wrapper">
-            <div class="banner-image"> </div>
+            <div class="banner-image">
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702655442/supra_q8jteq.jpg' alt='' />
+            </div>
             <h1>Syed Aoun Shah</h1>
             <p>name123@gmail.com <br />
               FA21-BSCYS-2130-0000</p>
@@ -56,7 +62,9 @@ const AboutUs = () => {
 
         <div class="container" >
           <div class="wrapper">
-            <div class="banner-image"> </div>
+            <div class="banner-image">
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702658138/hassan_erjt9b.jpg' alt='' />
+            </div>
             <h1>Muhammad hassan</h1>
             <p>name123@gmail.com <br />
               FA21-BSCYS-2130-0000</p>
@@ -65,7 +73,9 @@ const AboutUs = () => {
 
         <div class="container" >
           <div class="wrapper">
-            <div class="banner-image"> </div>
+            <div class="banner-image">
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702658138/pp_krqwpx.jpg' alt='' />
+            </div>
             <h1>Muhammad Panah</h1>
             <p>name123@gmail.com <br />
               FA21-BSCYS-2130-0000</p>
@@ -74,7 +84,9 @@ const AboutUs = () => {
 
         <div class="container" >
           <div class="wrapper">
-            <div class="banner-image"> </div>
+            <div class="banner-image">
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702655442/supra_q8jteq.jpg' alt='' />
+            </div>
             <h1>Areeba Zafar</h1>
             <p>name123@gmail.com <br />
               FA21-BSCYS-2130-0000</p>
@@ -83,7 +95,9 @@ const AboutUs = () => {
 
         <div class="container" >
           <div class="wrapper">
-            <div class="banner-image"> </div>
+            <div class="banner-image">
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702658136/am_u767wt.jpg' alt='' />
+            </div>
             <h1>Abdul malik</h1>
             <p>name123@gmail.com <br />
               FA21-BSCYS-2130-0000</p>
@@ -92,7 +106,9 @@ const AboutUs = () => {
 
         <div class="container" >
           <div class="wrapper">
-            <div class="banner-image"> </div>
+            <div class="banner-image">
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702655442/supra_q8jteq.jpg' alt='' />
+            </div>
             <h1>Muhammad Zubair</h1>
             <p>name123@gmail.com <br />
               FA21-BSCYS-2130-0000</p>

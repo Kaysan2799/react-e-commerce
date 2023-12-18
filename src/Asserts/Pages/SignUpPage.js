@@ -45,7 +45,7 @@ const SignUpPage = () => {
             />
           </div>
           <div className="form-group">
-            <label>Gender:</label>
+            <label>Sex:</label>
             <div className="radio-group">
               <input
                 type="radio"
@@ -118,6 +118,7 @@ const SignUpPage = () => {
           <button type="submit">Sign Up</button>
         </form>
       </div>
+      <div>{password}</div>
     </div>
   );
 };

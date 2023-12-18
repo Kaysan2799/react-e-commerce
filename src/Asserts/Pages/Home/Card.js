@@ -18,13 +18,27 @@ const Card = ({ card, onDelete, onUpdate }) => {
   };
 
   return (
-    <div className="card box" style={{ border: '2px solid black', borderRadius: '20px', width: '22%', padding: '3%', display: 'flex' }}>
-      <img style={{ width: '80%', height: '80%', padding: '1%', margin: '10%', border: '2px solid black', borderRadius: '20px', boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.8)' }} src={card.image} alt={card.title} />
-      <h3 style={{ fontSize: '30px', fontWeight: 'bold' }}>{card.title}</h3>
-      <p style={{ color: 'Black', fontSize: '20px', fontWeight: 'bold' }}>Discription: <p style={{ fontWeight: 'normal' }}>{card.text}</p></p>
+    <div className="card box" style={{
+      border: '2px solid black', borderRadius: '20px',
+      padding: '10%', margin: '2%', display: 'grid',
+      gridTemplateColums: 'repeat(autofit, minmax(min(11.25rem, 100%), 1fr)',
+    }}>
+      <div style={{ width: '100%', height: '100%' }}>
+        <img style={{
+          width: '80%', padding: '1%', marginBottom: '6%', marginLeft: '0%',
+          border: '2px solid black',
+          borderRadius: '20px', boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.8)'
+        }}
+          src={card.image} alt={card.title} />
+      </div>
+      <h3 style={{ fontSize: '30px', fontWeight: 'bold', textTransform: 'uppercase' }}>
+        {card.title}
+      </h3>
+
+      <p style={{ color: 'Black', fontSize: '20px', fontWeight: 'bold' }}>Discription: <p style={{ fontWeight: 'normal', marginLeft:'4%' }}>{card.text}</p></p>
       <p style={{ fontSize: '20px', fontWeight: 'bold' }}>Price: <b style={{ color: 'green', }}>${card.price}</b></p>
       {/* add category handler too */}
-      <p style={{ color: 'Black', fontSize: '20px', fontWeight: 'bold' }}>Category: </p>
+      <p style={{ color: 'Black', fontSize: '20px', fontWeight: 'bold' }}>Category:  <b style={{ color: 'black',textTransform: 'lowercase', fontWeight:'lighter' }}>{card.category}</b></p>
 
       <button
         onClick={handleUpdate}

@@ -180,7 +180,7 @@ const AdminPage = () => {
       </form>
 
       <h2 style={{ color: 'Black', fontSize: '40px', marginTop: '80px' }}>Manage Cards</h2>
-      <div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(calc(25% - 1rem), 1fr))', gap: '1rem' }}>
         {cardsData.map((card) => (
           <Card
             key={card.id}
@@ -190,6 +190,7 @@ const AdminPage = () => {
           />
         ))}
       </div>
+
 
       <h2 style={{ color: 'Black', marginTop: '20px', fontSize: '30px', fontWeight: 'bold' }}>Categories</h2>
       <ul style={{ listStyleType: 'none', paddingLeft: '10px', fontSize: '25px', fontWeight: 'bold', width: 'auto' }}>
