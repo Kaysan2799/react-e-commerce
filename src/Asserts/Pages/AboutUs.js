@@ -41,7 +41,7 @@ const AboutUs = () => {
         <div class="container" >
           <div class="wrapper">
             <div class="banner-image">
-              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702655442/supra_q8jteq.jpg' alt='' />
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1736600880/WhatsApp_Image_2025-01-11_at_5.06.45_AM_q2ha7g.jpg' alt='' />
             </div>
             <h1>Syed Muneeb</h1>
             <p>name123@gmail.com <br />
@@ -52,11 +52,11 @@ const AboutUs = () => {
         <div class="container" >
           <div class="wrapper">
             <div class="banner-image">
-              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1702655442/supra_q8jteq.jpg' alt='' />
+              <img src='https://res.cloudinary.com/serenaproject/image/upload/v1736603564/aoun_lnuavc.jpg' alt='' />
             </div>
-            <h1>Syed Aoun Shah</h1>
-            <p>name123@gmail.com <br />
-              FA21-BSCYS-2130-0000</p>
+            <h1>Aoun Shah</h1>
+            <p>Wildcard Entry<br />
+              The enemy can't guess your strategy if you don't have any</p>
           </div>
         </div>
 
@@ -114,7 +114,7 @@ const AboutUs = () => {
               FA21-BSCYS-2130-0000</p>
           </div>
         </div>
-
+  
       </div>
 
     </div>
